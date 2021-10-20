@@ -34,7 +34,7 @@ graph.edge 'e', graph.node('A'), graph.node('B', shape: 'polygon', label: graph.
 graph.render 'png'
 
 # or to a file
-graph.write 'result.png'
+graph.save 'result.png'
 ```
 
 #### Result 
